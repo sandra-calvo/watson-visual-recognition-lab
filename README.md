@@ -27,6 +27,7 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 #### Prerequisites
 - Register on IBM Cloud at https://bluemix.net
 
+# PART 1: Create a custom classifier
 
 ## Step 0. Explore: Visual Recognition Service
 The IBM Watson™ Visual Recognition service uses deep learning algorithms to analyze images (.jpg, or .png) for scenes, objects, faces, and other content, and return keywords that provide information about that content. You can also create custom collections of your own images, and then upload an image to search the collection for similar images. 
@@ -129,6 +130,7 @@ Now drag and drop images to test how the classifier works.
 
  ![](/screenshots/Picture10b.png?raw=true) 
 
+# PART 2: Create a Node-RED app using Visual Recognition
 
 ## Step 3. Create Your Node-RED Application
 If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 4.
