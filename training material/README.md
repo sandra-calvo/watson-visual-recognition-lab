@@ -4,3 +4,5 @@ This folders contains sample images to train Watson Visual Recognition service o
 
 There is a .zip file with images of good pizza, another .zip file with pictures of burned pizza - bad pizza. 
 The thrid .zip file contains images that are not pizza. 
+
+Finally, the forth .zip file contains test images not included in the training set. 
