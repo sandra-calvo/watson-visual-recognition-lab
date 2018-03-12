@@ -254,7 +254,7 @@ In this workshop we have used the Node-RED application to train Watson, but ther
 - Watson API explorer
 https://watson-api-explorer.mybluemix.net/apis/visual-recognition-v3 
 Probably the easiest way to train Watson! 
-Create your own Bluemix account, create a visual recognition service to get the credentials and then in the API explorer just upload your images and write your credentials to train your custom classifiers. 
+Create an IBM Cloud account, create a visual recognition service to get the credentials and then in the API explorer just upload your images and write your credentials to train your custom classifiers. 
 Quick and no coding needed! 
 
 -  Command line 
@@ -264,4 +264,4 @@ Explore the command line options and how to add Watson visual recognition capabi
 -  npm package 
 https://www.npmjs.com/package/watson-visual-recognition-utils 
 Command Line Interface and NPM module for easily creating/updating Watson Visual Recognition customer classifiers.
-6.4 Build your trainig flow in Node-RED
+
