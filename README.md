@@ -249,46 +249,7 @@ Your classifier ID can be found in the Visual Recognition Tool: (Do not use the 
  
 Edit the blue timestamp/inject node with the image URL you want to run through the classifier. 
 
-## Step 6. Create an UI to interact with Watson Visual Recognition (Optional)
-
-Let's add new nodes to your application. 
-
-In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
-                   
-![](/screenshots/Picture30.png?raw=true)
-
-Search for the dashboard nodes by writing 'dashboard'. This will return multiple node packages, you need to install the package 'node-red-dashboard'. Find it in the search results and click on install. This package will add an UI template to our Node-RED application.
-
- ![](/screenshots/Picture31.png?raw=true)
- 
-This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu. 
- 
-After few minutes you will see the new nodes in your Node-RED palette. 
-
-![](/screenshots/Picture32.png?raw=true)
-
-Import the flow from the Node-RED-ui.txt file, and you will have the following flow.
-
-![](/screenshots/Picture33.png?raw=true)
-
-Now edit the 
- SANDRA EDIT!
-
-
-To access the User Interface go to:
-
-http://yourAppName.mybluemix.net/UI - US South
-
-http://yourAppName.eu-gb.mybluemix.net/UI - UK
-
-http://yourAppName.eu-de.mybluemix.net/UI - Germany
-
-http://yourAppName.au-syd.mybluemix.net/UI - Sydney
-
-#### Congrats! You created a web application that uses Watson Visual Recognition! 
-
-
-## Step 7. Other ways to train Watson (Optional)
+## Step 6. Other ways to train Watson (Optional)
 In this workshop we have used the Node-RED application to train Watson, but there are other ways to do this. 
 
 - Watson API explorer
