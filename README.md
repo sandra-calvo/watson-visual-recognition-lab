@@ -98,7 +98,7 @@ Let's create our own classifier by clicking in "Create Classifier".
  
 Once that's done download the training data located in the "training material" folder. Download the .zip files from the sample you are planning on using (Bluemix logo, Angry Birds or Pizza).
 
-Name your classifier for example "AngryBirds" and create three classes named "Red", "Blue" and "Yellow". 
+Name your classifier for example "AngryBirds" and create three classes named "Red", "Blue" and "Yellow". For the negative class you can use the Pigs.zip file.
 
 Drag and drop the .zip files into their correct classes. Once that's done press "Create" as shown in the next picture. 
 
