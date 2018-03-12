@@ -218,7 +218,7 @@ Click the button to the right of the inject node. To see the results of the anal
 ![](/screenshots/Picture25.png?raw=true)
  
 In order to make the lab easier we are going to import the rest of the code. 
-You can get the complete Node-RED flow from the Visual-recognition-flow.txt.
+You can get the complete Node-RED flow from the **Node-RED-VisualRecognition-flow.txt**.
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard - and paste the text you copied from above. 
 
@@ -233,7 +233,7 @@ Edit the Visual Recognition nodes with your own credentials (API Key).
 Now feel free to find you own images and add them to the different inject nodes to either classify the image, recognize the text in and image or detect faces. 
  
 ## Step 5. Test your customized classifier
-Same way you imported the code in the previous step, copy the following text and import it in Node-RED. In this case use CustomClassifier.txt
+Same way you imported the code in the previous step, copy the following text and import it in Node-RED. In this case use **NodeRED-CustomClassifier.txt**
 
 We should have the next flow:
  
@@ -247,8 +247,48 @@ Your classifier ID can be found in the Visual Recognition Tool: (Do not use the 
 
 ![](/screenshots/Picture29.png?raw=true)
  
+Edit the blue timestamp/inject node with the image URL you want to run through the classifier. 
+
+## Step 6. Create an UI to interact with Watson Visual Recognition (Optional)
+
+Let's add new nodes to your application. 
+
+In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
+                   
+![](/screenshots/Picture30.png?raw=true)
+
+Search for the dashboard nodes by writing 'dashboard'. This will return multiple node packages, you need to install the package 'node-red-dashboard'. Find it in the search results and click on install. This package will add an UI template to our Node-RED application.
+
+ ![](/screenshots/Picture31.png?raw=true)
  
-## Step 6. Other ways to train Watson (Optional)
+This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu. 
+ 
+After few minutes you will see the new nodes in your Node-RED palette. 
+
+![](/screenshots/Picture32.png?raw=true)
+
+Import the flow from the Node-RED-ui.txt file, and you will have the following flow.
+
+![](/screenshots/Picture33.png?raw=true)
+
+Now edit the 
+ SANDRA EDIT!
+
+
+To access the User Interface go to:
+
+http://yourAppName.mybluemix.net/UI - US South
+
+http://yourAppName.eu-gb.mybluemix.net/UI - UK
+
+http://yourAppName.eu-de.mybluemix.net/UI - Germany
+
+http://yourAppName.au-syd.mybluemix.net/UI - Sydney
+
+#### Congrats! You created a web application that uses Watson Visual Recognition! 
+
+
+## Step 7. Other ways to train Watson (Optional)
 In this workshop we have used the Node-RED application to train Watson, but there are other ways to do this. 
 
 - Watson API explorer
