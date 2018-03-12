@@ -18,8 +18,7 @@ In this guide, we will create our own custom classifier and a Node-RED applicati
 ## Step 0. Explore: Visual Recognition Service
 The IBM Watson™ Visual Recognition service uses deep learning algorithms to analyze images (.jpg, or .png) for scenes, objects, faces, and other content, and return keywords that provide information about that content. You can also create custom collections of your own images, and then upload an image to search the collection for similar images. 
 
-![](https://console.bluemix.net/docs/api/content/services/visual-recognition/images/visual-recognition-process-110717.png?raw=true)
-
+![](/screenshots/Picture0.png?raw=true)
 
 #### Use Cases 
 
