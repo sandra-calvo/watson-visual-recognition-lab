@@ -127,6 +127,8 @@ The training process can take few minutes.
 
 Now drag and drop images to test how the classifier works. 
 
+ ![](/screenshots/Picture10b.png?raw=true) 
+
 
 ## Step 3. Create Your Node-RED Application
 If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 4.
