@@ -3,12 +3,8 @@
 # IBM Cloud :cloud: & Watson 
 # Visual Recognition: Train Watson with your own images
 
-![](Sandra/Desktop/Hands-on-Labs/Visual-Recognition-Lab/ibm_cloud.png?raw=true)
-
 <!--- GIF & images
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
-![Alt Text](https://www.ibm.com/cloud-computing/images/new-cloud/img/cloud.png?raw=true)
 --->
  
 ## Introduction 
@@ -35,7 +31,6 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 ## Step 0. Explore: Visual Recognition Service
 The IBM Watson™ Visual Recognition service uses deep learning algorithms to analyze images (.jpg, or .png) for scenes, objects, faces, and other content, and return keywords that provide information about that content. You can also create custom collections of your own images, and then upload an image to search the collection for similar images. 
 
-
 ![](https://console.bluemix.net/docs/api/content/services/visual-recognition/images/visual-recognition-process-110717.png?raw=true)
 
 
@@ -52,7 +47,8 @@ The IBM Watson™ Visual Recognition service uses deep learning algorithms to an
 | Education| Create image-based applications to educate about taxonomies, use pictures to find educational material or similar subjects.|
 
 #### Demo
-To see the Visual Recognition service in action, see the Visual Recognition demo app. With the demo, you can analyze images for subject matter, and faces, as well as train a temporal custom classifier. 
+To see the Visual Recognition service in action, see the Visual Recognition demo app. With the demo, you can analyze images for subject matter, and faces, as well as train a temporal custom classifier.
+
 https://visual-recognition-demo.ng.bluemix.net/ 
 
 #### Explore the API (First go through the lab at least once) 
@@ -69,6 +65,7 @@ Find the complete documentation on the Visual Recognition service here: http://w
 
 #### Other Watson services
 Check other Watson services: http://www.ibm.com/watson/developercloud/doc/ 
+
 Explore the APIs: https://watson-api-explorer.mybluemix.net/ 
  
  
@@ -113,9 +110,9 @@ Let's create our own classifier by clicking in "Create Classifier".
  
  ![](/screenshots/Picture8.png?raw=true)
  
-Once that's done download the training data located in the Box folder where this lab was located. Download the "GoldenRetriever.zip, Beagle.zip and cats.zip" files.
+Once that's done download the training data located in the "training material" folder. Download the .zip files from the sample you are planning on using (Bluemix logo, Angry Birds or Pizza).
 
-Name your classifier for example "Dogs" and create two classes named "GoldenRetriever" and "Beagle". 
+Name your classifier for example "AngryBirds" and create three classes named "Red", "Blue" and "Yellow". 
 
 Drag and drop the .zip files into their correct classes. Once that's done press "Create" as shown in the next picture. 
 
