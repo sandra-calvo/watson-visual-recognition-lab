@@ -8,21 +8,7 @@
 --->
  
 ## Introduction 
-In this guide, we will create our own web application using Watson visual recognition on IBM Cloud and train Watson creating our own custom classifier. 
-
-#### About IBM Cloud
-IBM Cloud is based on an open-standard, a cloud platform for building, managing, and running applications of all types (web, mobile, big data, new smart devices, and so on).
-- The developer can choose any language runtime or bring their own. Zero to production in one command.
-- A catalog of IBM, third party, and open source API services allow the developer to stitch an application together in minutes.
-- Development, monitoring, deployment, and logging tools allow the developer to run the entire application.
-- Sign up in minutes. Pay as you go and subscription models offer choice and flexibility.
-
-#### About Node-RED
-Node-RED is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
-- JavaScript functions can be created within the editor using a rich text editor.
-- A built-in library allows you to save useful functions, templates or flows for re-use.
-- See https://nodered.org for more information. 
-
+In this guide, we will create our own custom classifier and a Node-RED application using Watson visual recognition on IBM Cloud.
 
 #### Prerequisites
 - Register on IBM Cloud at https://bluemix.net
@@ -133,6 +119,14 @@ Now drag and drop images to test how the classifier works.
 # PART 2: Create a Node-RED app using Visual Recognition
 
 ## Step 3. Create Your Node-RED Application
+
+#### About Node-RED
+Node-RED is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
+- JavaScript functions can be created within the editor using a rich text editor.
+- A built-in library allows you to save useful functions, templates or flows for re-use.
+- See https://nodered.org for more information. 
+
+
 If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 4.
 
 4.	In a browser navigate to https://bluemix.net
