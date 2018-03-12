@@ -53,6 +53,7 @@ The IBM Watson™ Visual Recognition service uses deep learning algorithms to an
 
 #### Demo
 To see the Visual Recognition service in action, see the Visual Recognition demo app. With the demo, you can analyze images for subject matter, and faces, as well as train a temporal custom classifier. 
+https://visual-recognition-demo.ng.bluemix.net/ 
 
 #### Explore the API (First go through the lab at least once) 
 Interact with the Watson API to understand how it works. Use the explorer to test your calls to the API, and to view live responses from the server.   
@@ -126,6 +127,9 @@ The training process can take few minutes.
 
  
 #### Congrats! You've now created your own customized classifier in the Watson Visual Recognition service. 
+
+Now drag and drop images to test how the classifier works. 
+
 
 ## Step 3. Create Your Node-RED Application
 If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 4.
